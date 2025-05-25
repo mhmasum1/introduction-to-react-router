@@ -1,6 +1,6 @@
 import './User.css'
 const User = ({ user }) => {
-    const { id, name, email, phone } = user;
+    const { name, email, phone } = user;
     return (
         <div className="user">
             <h2>{name}</h2>
